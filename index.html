@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="src/styles/texts.css" />
+
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Script -->
+    <script src="src/scripts/database.js" defer></script>
+    <script src="src/scripts/index.js" defer></script>
+
+    <title>Criando rede social</title>
+  </head>
+  <body>
+    <!-- <img src="src/assets/img/heart-gray.svg" alt=""> -->
+    <header>
+      <img src="src/assets/img/logo.svg" alt="" />
+      <button class="text2 text2--bold">Sair</button>
+    </header>
+    <main>
+      <section id="section_one">
+        <section class="user__post">
+          <div class="user__perfil">
+            <img class="img__perfil" src="./src/assets/img/user1.svg" alt="" />
+            <div class="user_information">
+              <p class="user__name title2">Samuel Leão</p>
+              <p class="user__occupation text2">Front end Enginneer</p>
+            </div>
+          </div>
+          <form class="post" action="">
+            <input
+              class="post__title"
+              type="text"
+              placeholder="Digitar título do post"
+            />
+            <textarea
+              name=""
+              class="post__description"
+              cols="10"
+              rows="5"
+              placeholder="Digitar Descrição do post"
+            ></textarea>
+            <div class="button__container">
+              <button class="button__post text2--bold" type="submit">
+                Postar
+              </button>
+            </div>
+          </form>
+        </section>
+        <aside class="user_suggestion">
+          <h3 class="title2">Sugestões para você seguir</h3>
+          <div class="user__suggestion__box__container"></div>
+        </aside>
+      </section>
+
+      <section class="posts">
+        <h2 class="title1">Posts</h2>
+      </section>
+    </main>
+    <dialog class="controller">
+      <div class="container">
+       
+      </div>
+    </dialog>  
+  </body>
+  
+</html>

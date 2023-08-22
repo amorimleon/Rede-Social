@@ -1,0 +1,50 @@
+:root {
+  /* Brand Colors */
+  --brand-1: #4263eb;
+  --brand-2: #364fc7;
+
+  /* Grey Colors */
+  --grey0: #0a0c0d;
+  --grey1: #212529;
+  --grey2: #495047;
+  --grey3: #868e96;
+  --grey4: #dee2e6;
+  --grey5: #f8f9fa;
+  --grey-opacity-1: rgba(33, 37, 41, 0.5);
+  --whiteFixed: #ffffff;
+
+  /*Feedback Pallete*/
+  --like: #d7443e;
+
+  /* Font-weight */
+  --font-weight1: 700;
+  --font-weight2: 600;
+  --font-weight3: 400;
+
+  /* Font-Size*/
+  --font-size1: 1.75rem;
+  --font-size2: 1.25rem;
+  --font-size3: 1rem;
+  --font-size4: 0.875rem;
+  --font-size5: 0.75rem;
+
+  /* Line-Height */
+  --line-height1: 2.5rem;
+  --line-height2: 1.75rem;
+  --line-height3: 1.5rem;
+  --line-height4: 1rem;
+}
+
+.img__perfil {
+  height: 3.125rem;
+}
+
+.text2--bold{
+  font-weight: var(--font-weight2);
+  font-size: var(--font-size2);
+}
+
+button{
+  cursor: pointer;
+}
+
